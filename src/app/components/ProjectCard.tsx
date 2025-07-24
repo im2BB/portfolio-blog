@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface ProjectCardProps {
   title: string;
   description: string;
@@ -24,6 +26,7 @@ export default function ProjectCard({
       <div className="h-48 bg-gradient-to-r from-orange-400 to-orange-500 flex items-center justify-center">
         <span className="text-white text-4xl">{emoji}</span>
       </div>
+
       <div className="p-6 flex flex-col flex-1">
         <h3 className="text-xl font-semibold mb-2 text-white">{title}</h3>
         <p className="text-gray-400 mb-4">{description}</p>

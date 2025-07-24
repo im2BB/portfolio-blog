@@ -13,15 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "포트폴리오 & 블로그",
+  title: "이경훈의 포토폴리오",
   description: "개발자 포트폴리오와 기술 블로그",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="ko">
       <body

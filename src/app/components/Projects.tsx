@@ -22,9 +22,19 @@ const projects = [
     title: "포트폴리오 웹사이트",
     description: "Next.js와 Tailwind CSS로 제작한 반응형 포트폴리오 사이트",
     tags: ["React", "Next.js", "Tailwind", "TypeScript"],
-    projectUrl: "#",
+    projectUrl: "https://portfolio-blog-zeta-tan.vercel.app/",
     githubUrl: "https://github.com/im2BB/portfolio-blog",
     emoji: "🗒️",
+    primaryButtonText: "방문하기",
+  },
+  {
+    title: "영화 찾기 서비스(Netflix 클론)",
+    description:
+      "React와 Node.js로 제작한 반응형 Netflix 클론 영화 추천 사이트",
+    tags: ["React", "Node.js", "styled-components", "TypeScript"],
+    projectUrl: "https://im222b.github.io/react-PRJ2/",
+    githubUrl: "https://github.com/im222b/react-PRJ2",
+    emoji: "🎬",
     primaryButtonText: "방문하기",
   },
 ];
