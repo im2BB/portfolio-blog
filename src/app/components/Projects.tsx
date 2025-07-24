@@ -22,7 +22,7 @@ const projects = [
     title: "포트폴리오 웹사이트",
     description: "Next.js와 Tailwind CSS로 제작한 반응형 포트폴리오 사이트",
     tags: ["React", "Next.js", "Tailwind", "TypeScript"],
-    projectUrl: "https://portfolio-blog-zeta-tan.vercel.app/",
+    projectUrl: "portfolio-blog-zeta-tan.vercel.app",
     githubUrl: "https://github.com/im2BB/portfolio-blog",
     emoji: "🗒️",
     primaryButtonText: "방문하기",
