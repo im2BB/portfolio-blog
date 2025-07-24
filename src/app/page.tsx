@@ -79,7 +79,8 @@ export default function Home() {
               <span className="text-white text-4xl font-bold">👨‍💻</span>
             </div>
             <h1 className="text-4xl sm:text-6xl font-bold text-white mb-4">
-              안녕하세요, <span className="text-orange-400">개발자</span>입니다
+              안녕하세요, <span className="text-orange-400"> 이경훈 </span>
+              입니다
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               프론트엔드 개발과 사용자 경험에 열정을 가진 개발자입니다. 새로운
@@ -87,12 +88,21 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-3 bg-orange-400 text-white rounded-lg hover:bg-orange-600 transition-colors font-medium">
+            <a
+              href="https://carrot-market-clone-theta.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-orange-400 text-white rounded-lg hover:bg-orange-600 transition-colors font-medium inline-block"
+            >
               프로젝트 보기
-            </button>
-            <button className="px-8 py-3 border border-orange-400 text-orange-300 rounded-lg hover:bg-orange-500/10 hover:text-orange-400 transition-colors font-medium">
+            </a>
+            <a
+              href="/이경훈 입사지원서.docx"
+              download="이경훈_입사지원서.docx"
+              className="px-8 py-3 border border-orange-400 text-orange-300 rounded-lg hover:bg-orange-500/10 hover:text-orange-400 transition-colors font-medium inline-block"
+            >
               이력서 다운로드
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -123,13 +133,25 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span className="text-gray-300">TypeScript</span>
-                    <span className="text-gray-400">85%</span>
+                    <span className="text-gray-300">Node.js</span>
+                    <span className="text-gray-400">80%</span>
                   </div>
                   <div className="w-full bg-gray-700 rounded-full h-2">
                     <div
                       className="bg-orange-400 h-2 rounded-full"
-                      style={{ width: "85%" }}
+                      style={{ width: "80%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex justify-between mb-2">
+                    <span className="text-gray-300">TypeScript</span>
+                    <span className="text-gray-400">80%</span>
+                  </div>
+                  <div className="w-full bg-gray-700 rounded-full h-2">
+                    <div
+                      className="bg-orange-400 h-2 rounded-full"
+                      style={{ width: "80%" }}
                     ></div>
                   </div>
                 </div>
@@ -145,6 +167,19 @@ export default function Home() {
                     ></div>
                   </div>
                 </div>
+
+                <div>
+                  <div className="flex justify-between mb-2">
+                    <span className="text-gray-300">JAVA</span>
+                    <span className="text-gray-400">40%</span>
+                  </div>
+                  <div className="w-full bg-gray-700 rounded-full h-2">
+                    <div
+                      className="bg-orange-400 h-2 rounded-full"
+                      style={{ width: "40%" }}
+                    ></div>
+                  </div>
+                </div>
               </div>
             </div>
             <div>
@@ -154,19 +189,15 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="border-l-4 border-orange-400 pl-4">
                   <h4 className="font-semibold text-white">
-                    시니어 프론트엔드 개발자
+                    주니어 프론트엔드 개발자
                   </h4>
-                  <p className="text-gray-400">테크 스타트업 • 2022 - 현재</p>
+                  <p className="text-gray-400">SI 협력업체 • 2024 - 2025</p>
                 </div>
                 <div className="border-l-4 border-orange-400 pl-4">
                   <h4 className="font-semibold text-white">
-                    프론트엔드 개발자
+                    JAVA 개발자 국비 교육
                   </h4>
-                  <p className="text-gray-400">웹 에이전시 • 2020 - 2022</p>
-                </div>
-                <div className="border-l-4 border-orange-400 pl-4">
-                  <h4 className="font-semibold text-white">컴퓨터 공학 학사</h4>
-                  <p className="text-gray-400">대학교 • 2016 - 2020</p>
+                  <p className="text-gray-400">Full Stack • 2023 - 2024</p>
                 </div>
               </div>
             </div>
@@ -182,79 +213,74 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project Card 1 */}
-            <div className="bg-black rounded-lg shadow-lg overflow-hidden hover:shadow-orange-500/20 transition-shadow border border-gray-800">
+            <div className="bg-black rounded-lg shadow-lg overflow-hidden hover:shadow-orange-500/20 transition-shadow border border-gray-800 flex flex-col">
               <div className="h-48 bg-gradient-to-r from-orange-400 to-orange-500 flex items-center justify-center">
                 <span className="text-white text-4xl">🚀</span>
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-xl font-semibold mb-2 text-white">
-                  E-커머스 플랫폼
+                  당근마켓 클론 플랫폼
                 </h3>
                 <p className="text-gray-400 mb-4">
-                  React와 Node.js를 사용한 풀스택 E-커머스 웹 애플리케이션
+                  React와 Next.js를 사용한 풀스택 E-커머스 웹 애플리케이션
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-2 py-1 bg-orange-400/20 text-orange-300 text-xs rounded">
                     React
                   </span>
                   <span className="px-2 py-1 bg-orange-400/20 text-orange-300 text-xs rounded">
-                    Node.js
+                    Next.js
                   </span>
                   <span className="px-2 py-1 bg-orange-400/20 text-orange-300 text-xs rounded">
-                    MongoDB
+                    Tailwind
                   </span>
-                </div>
-                <div className="flex gap-2">
-                  <button className="flex-1 px-4 py-2 bg-orange-400 text-white rounded hover:bg-orange-600 transition-colors text-sm">
-                    라이브 데모
-                  </button>
-                  <button className="flex-1 px-4 py-2 border border-gray-600 text-gray-300 rounded hover:bg-gray-900 transition-colors text-sm">
-                    GitHub
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* Project Card 2 */}
-            <div className="bg-black rounded-lg shadow-lg overflow-hidden hover:shadow-orange-500/20 transition-shadow border border-gray-800">
-              <div className="h-48 bg-gradient-to-r from-orange-400 to-orange-500 flex items-center justify-center">
-                <span className="text-white text-4xl">📱</span>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2 text-white">
-                  모바일 앱
-                </h3>
-                <p className="text-gray-400 mb-4">
-                  React Native로 개발한 크로스 플랫폼 모바일 애플리케이션
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-2 py-1 bg-orange-400/20 text-orange-300 text-xs rounded">
-                    React Native
+                    TypeScript
                   </span>
                   <span className="px-2 py-1 bg-orange-400/20 text-orange-300 text-xs rounded">
                     Firebase
                   </span>
                   <span className="px-2 py-1 bg-orange-400/20 text-orange-300 text-xs rounded">
-                    Redux
+                    Prismas
+                  </span>
+                  <span className="px-2 py-1 bg-orange-400/20 text-orange-300 text-xs rounded">
+                    Vercel
                   </span>
                 </div>
-                <div className="flex gap-2">
-                  <button className="flex-1 px-4 py-2 bg-orange-400 text-white rounded hover:bg-orange-600 transition-colors text-sm">
-                    앱 스토어
-                  </button>
-                  <button className="flex-1 px-4 py-2 border border-gray-600 text-gray-300 rounded hover:bg-gray-900 transition-colors text-sm">
+                <div className="flex gap-2 mt-auto">
+                  <a
+                    href="https://carrot-market-clone-theta.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 px-4 py-2 bg-orange-400 text-white rounded hover:bg-orange-600 transition-colors text-sm"
+                  >
+                    프로젝트 보기
+                  </a>
+                  <a
+                    href="https://github.com/im2BB/carrot-market-clone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 px-4 py-2 border border-gray-600 text-gray-300 rounded hover:bg-gray-900 transition-colors text-sm flex items-center justify-center gap-2"
+                  >
+                    <svg
+                      className="w-3 h-3"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
                     GitHub
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
 
             {/* Project Card 3 */}
-            <div className="bg-black rounded-lg shadow-lg overflow-hidden hover:shadow-orange-500/20 transition-shadow border border-gray-800">
+            <div className="bg-black rounded-lg shadow-lg overflow-hidden hover:shadow-orange-500/20 transition-shadow border border-gray-800 flex flex-col">
               <div className="h-48 bg-gradient-to-r from-orange-400 to-orange-500 flex items-center justify-center">
                 <span className="text-white text-4xl">🎨</span>
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-xl font-semibold mb-2 text-white">
                   포트폴리오 웹사이트
                 </h3>
@@ -262,6 +288,9 @@ export default function Home() {
                   Next.js와 Tailwind CSS로 제작한 반응형 포트폴리오 사이트
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-2 py-1 bg-orange-400/20 text-orange-300 text-xs rounded">
+                    React
+                  </span>
                   <span className="px-2 py-1 bg-orange-400/20 text-orange-300 text-xs rounded">
                     Next.js
                   </span>
@@ -272,91 +301,33 @@ export default function Home() {
                     TypeScript
                   </span>
                 </div>
-                <div className="flex gap-2">
-                  <button className="flex-1 px-4 py-2 bg-orange-400 text-white rounded hover:bg-orange-600 transition-colors text-sm">
+                <div className="flex gap-2 mt-auto">
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 px-4 py-2 bg-orange-400 text-white rounded hover:bg-orange-600 transition-colors text-sm"
+                  >
                     방문하기
-                  </button>
-                  <button className="flex-1 px-4 py-2 border border-gray-600 text-gray-300 rounded hover:bg-gray-900 transition-colors text-sm">
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 px-4 py-2 border border-gray-600 text-gray-300 rounded hover:bg-gray-900 transition-colors text-sm flex items-center justify-center gap-2"
+                  >
+                    <svg
+                      className="w-3 h-3"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
                     GitHub
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Blog Section */}
-      <section id="blog" className="py-20 px-4 sm:px-6 lg:px-8 bg-black">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 text-white">
-            최근 블로그 포스트
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Blog Post 1 */}
-            <article className="bg-black rounded-lg p-6 hover:shadow-orange-500/20 transition-shadow border border-gray-700">
-              <div className="text-sm text-gray-400 mb-2">2024년 1월 15일</div>
-              <h3 className="text-xl font-semibold mb-3 text-white">
-                Next.js 15의 새로운 기능들
-              </h3>
-              <p className="text-gray-400 mb-4">
-                Next.js 15에서 추가된 새로운 기능들과 개선사항에 대해
-                알아보겠습니다...
-              </p>
-              <div className="flex items-center justify-between">
-                <span className="text-orange-300 text-sm font-medium">
-                  기술
-                </span>
-                <button className="text-orange-300 hover:text-orange-400 hover:underline text-sm">
-                  읽기 →
-                </button>
-              </div>
-            </article>
-
-            {/* Blog Post 2 */}
-            <article className="bg-black rounded-lg p-6 hover:shadow-orange-500/20 transition-shadow border border-gray-700">
-              <div className="text-sm text-gray-400 mb-2">2024년 1월 10일</div>
-              <h3 className="text-xl font-semibold mb-3 text-white">
-                TypeScript 모범 사례
-              </h3>
-              <p className="text-gray-400 mb-4">
-                TypeScript를 사용할 때 알아두면 좋은 모범 사례와 팁들을
-                정리해보았습니다...
-              </p>
-              <div className="flex items-center justify-between">
-                <span className="text-orange-300 text-sm font-medium">
-                  개발
-                </span>
-                <button className="text-orange-300 hover:text-orange-400 hover:underline text-sm">
-                  읽기 →
-                </button>
-              </div>
-            </article>
-
-            {/* Blog Post 3 */}
-            <article className="bg-black rounded-lg p-6 hover:shadow-orange-500/20 transition-shadow border border-gray-700">
-              <div className="text-sm text-gray-400 mb-2">2024년 1월 5일</div>
-              <h3 className="text-xl font-semibold mb-3 text-white">
-                반응형 디자인 패턴
-              </h3>
-              <p className="text-gray-400 mb-4">
-                모바일부터 데스크톱까지 모든 디바이스에서 완벽한 사용자 경험을
-                제공하는 방법...
-              </p>
-              <div className="flex items-center justify-between">
-                <span className="text-orange-300 text-sm font-medium">
-                  디자인
-                </span>
-                <button className="text-orange-300 hover:text-orange-400 hover:underline text-sm">
-                  읽기 →
-                </button>
-              </div>
-            </article>
-          </div>
-          <div className="text-center mt-12">
-            <button className="px-8 py-3 border border-orange-400 text-orange-300 rounded-lg hover:bg-orange-500/10 hover:text-orange-400 transition-colors font-medium">
-              모든 포스트 보기
-            </button>
           </div>
         </div>
       </section>
